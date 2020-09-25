@@ -4,12 +4,14 @@ create table student (
 	cnic char (13) primary key,
 	student_name varchar(255),
 	student_address varchar(255),
+	rollNo int,  
 	age int
 );
-insert into student values('1', 'zahid ali', 'uet lahore', 23)
-insert into student values('2', 'Ahmad bilal', 'uet lahore', 122)
-insert into student values('3', 'abdul Samad', 'uet lahore', 13)
-insert into student values('4', 'Abdullah safdar', 'uet lahore', 2)
+
+insert into student values('1', 'zahid ali', 'uet lahore', 1, 23)
+insert into student values('2', 'Ahmad bilal', 'uet lahore', 2, 122)
+insert into student values('3', 'abdul Samad', 'uet lahore', 3, 13)
+insert into student values('4', 'Abdullah safdar', 'uet lahore', 4, 2)
 
 select * from student
 
