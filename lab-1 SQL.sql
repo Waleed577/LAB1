@@ -32,15 +32,19 @@ create table subject_result(
 insert into subject_result (course_code, course_title, student_grade, marks) values('11', 'zahid ali', 'uet lahore', 23)
 insert into subject_result (course_code, course_title, student_grade, marks) values('12', 'Ahmad bilal', 'uet lahore', 122)
 insert into subject_result (course_code, course_title, student_grade, marks) values('13', 'abdul Samad', 'uet lahore', 13)
+insert into subject_result (course_code, course_title, student_grade, marks) values('14', 'Waleed', 'uet lahore', 102)
 
 truncate table subject_result
 select * from subject_result
 
 
+/*About alter */
 alter table persons add email varchar (255)     /* adding column named email in persons table*/
 alter table persons drop column email          /*deleting column in persons table*/
 alter table persons alter column personID varchar /*changing datatype of column*/
 
+
+/* More about alter */
 ALTER TABLE STUDENT ADD EMAIL VARCHAR(255)
 ALTER TABLE STUDENT ALTER CoLUMN EMAIL INT
 ALTER TABLE STUDENT DRoP CoLUMN EMAIL 
